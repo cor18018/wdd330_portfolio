@@ -12,6 +12,10 @@ window.addEventListener("load", () => {
         label: "Week 3 Notes",
         url: "week3/reading_notes.html"
       }
+      , {
+        label: "Week 4 Notes",
+        url: "week4/reading_notes.html"
+      }
     ]
 
   var list = document.getElementById("list");
