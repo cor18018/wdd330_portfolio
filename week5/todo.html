@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo Challenge</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        form {
+            width: 250px;
+            margin: 0 auto;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #list {
+
+            border: 1px solid black;
+            margin-bottom: 15em;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        #filter {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1.5fr 2fr;
+            border-top: 1px solid black;
+        }
+
+        #filter button {
+            border: none;
+            background: white;
+        }
+
+        #filter p {
+            padding-left: .5em;
+            font-size: 13px;
+            margin: .5em 0
+        }
+
+        #foot {
+            display: grid;
+            grid-template-columns: 5fr .8fr;
+
+        }
+
+        #input {
+            height: 2em;
+            width: 200px;
+            font-size: 12px;
+
+        }
+
+        #add {
+            background: white;
+            border: none;
+            border: 1px solid black;
+            padding: 0;
+
+        }
+
+        .material-icons {
+            font-size: 24px;
+            padding-top: .1em;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <h1>Todos</h1>
+        <div id="list">
+            <section id="tasks">
+
+            </section>
+            <div id="filter">
+                <p><span id="count">0</span> tasks left</p>
+                <button id="all">All</button>
+                <button id="active">Active</button>
+                <button id="completed">Completed</button>
+            </div>
+        </div>
+        <div id="foot">
+            <textarea name="todoTask" id="input" cols="30" rows="10"></textarea>
+            <button id="add"><span class="material-icons">
+                    add
+                </span></button>
+        </div>
+    </form>
+    <script src="main.js"></script>
+</body>
+
+</html>
