@@ -1,0 +1,3 @@
+function writeToLS(key, data) {
+    
+}

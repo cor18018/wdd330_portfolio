@@ -1,0 +1,62 @@
+form {
+    width: 250px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#list {
+
+    border: 1px solid black;
+    margin-bottom: 15em;
+}
+
+button {
+    cursor: pointer;
+}
+
+#filter {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1.5fr 2fr;
+    border-top: 1px solid black;
+}
+
+#filter button {
+    border: none;
+    background: white;
+}
+
+#filter p {
+    padding-left: .5em;
+    font-size: 13px;
+    margin: .5em 0
+}
+
+#foot {
+    display: grid;
+    grid-template-columns: 5fr .8fr;
+
+}
+
+#input {
+    height: 2em;
+    width: 200px;
+    font-size: 12px;
+
+}
+
+#add {
+    background: white;
+    border: none;
+    border: 1px solid black;
+    padding: 0;
+
+}
+
+.material-icons {
+    font-size: 24px;
+    padding-top: .1em;
+}
